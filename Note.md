@@ -7,4 +7,8 @@ The next command is git commit -m ""(used to safe your changes).
 To put your user email and user name you enter the following on your terminal
 (git config --global user.email "beckkyjayz@gmail.com")
 (git config --global user.name "Beckkygitz") 
-M on the top left means modified- that you made a change but github has not yet added save it. so for git to take note and save the changes, you go back to the last command.
+M on the top left means modified- that you made a change but github has not yet added or saved it. so for git to take note and save the changes, you go back to the last command.
+git add .
+git commit -m "make a change" and enter.
+If you don't want git to take note of the changes you are making, you create a gitignore file. on your terminal now press a (.gitignore) and enter.
+To create a new branch for your work, you need to enter this command (git branch 'name') this will switch the branch
